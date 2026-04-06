@@ -15,6 +15,7 @@
   --interactive-hover: hsl(210, calc(var(--saturation-factor, 1) * 2.9%), 86.7%);
   --interactive-active: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
   --interactive-muted: rgba(255, 255, 255, 0.3);
+  background: transparent !important;
   --background-primary: transparent !important;
   --background-secondary: transparent !important;
   --background-secondary-alt: transparent !important;
@@ -1925,7 +1926,7 @@ button[class*=participantsButton]:hover {
   background: rgba(0, 0, 0, 0.3) !important;
 }
 
-[class*=-children] [class*=nowPlaying_] {
+[class*=-children] [class*=nowPlayingColumn__133bf] {
   background: rgba(0, 255, 128, 0.2) !important;
 }
 
@@ -2079,24 +2080,28 @@ button[class*=participantsButton]:hover {
   color: var(--button-text-selected);
 }
 
-[class*=nowPlayingColumn] [class*=-scroller] {
+[class*=nowPlayingColumn__133bf] {
+  background: transparent !important;
+}
+
+[class*=nowPlayingColumn__133bf] [class*=-scroller] {
   border: 0;
 }
-[class*=nowPlayingColumn] [class*=itemCard] {
+[class*=nowPlayingColumn__133bf] [class*=itemCard] {
   border: 0;
   background: rgba(0, 0, 0, 0.5) !important;
 }
-[class*=nowPlayingColumn] [class*=itemCard] [class*=body] {
+[class*=nowPlayingColumn__133bf] [class*=itemCard] [class*=body] {
   background: transparent !important;
 }
-[class*=nowPlayingColumn] [class*=itemCard] [class*=body] [class*=separator] {
+[class*=nowPlayingColumn__133bf] [class*=itemCard] [class*=body] [class*=separator] {
   display: none;
 }
 
-[class*=-content] > [class*=-sidebar] [class*=-privateChannels] {
-  background: transparent;
+.privateChannels_e6b769 {
+  background: transparent !important;
 }
-[class*=-content] > [class*=-sidebar] [class*=-privateChannels] [class*=-scroller] {
+.privateChannels_e6b769 [class*=scroller__99e7c] {
   background: transparent;
 }
 
