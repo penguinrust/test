@@ -249,9 +249,13 @@ button {
 }
 
 .sidebar__5e434:after {
-  background: transparent !important
+  background: transparent !important;
 }
 /* why is this here? like im not gonna lie this confused me so hard lol its just a black bar */
+
+.content_e9e3ed {
+  background: transparent !important;
+}
 
 button[class*=lookFilled_][class*=colorGrey],
 button[class*=lookFilled_][class*=colorPrimary_] {
