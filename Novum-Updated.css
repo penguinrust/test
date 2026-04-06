@@ -261,6 +261,10 @@ button {
   background: transparent !important;
 }
 
+.children__9293f::after {
+  background: transparent !important;
+}
+
 button[class*=lookFilled_][class*=colorGrey],
 button[class*=lookFilled_][class*=colorPrimary_] {
   background: var(--accent-color-semitransparent) !important;
