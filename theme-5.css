@@ -248,6 +248,11 @@ button {
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.sidebar__5e434:after {
+  background: transparent !important
+}
+/* why is this here? like im not gonna lie this confused me so hard lol its just a black bar */
+
 button[class*=lookFilled_][class*=colorGrey],
 button[class*=lookFilled_][class*=colorPrimary_] {
   background: var(--accent-color-semitransparent) !important;
