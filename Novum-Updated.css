@@ -257,6 +257,10 @@ button {
   background: transparent !important;
 }
 
+.chatGradient__36d07 {
+  background: transparent !important;
+}
+
 button[class*=lookFilled_][class*=colorGrey],
 button[class*=lookFilled_][class*=colorPrimary_] {
   background: var(--accent-color-semitransparent) !important;
