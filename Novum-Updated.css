@@ -1339,9 +1339,6 @@ nav[class*=container] > [class*=container] > header:hover {
   color: var(--button-text-selected) !important;
 }
 
-[class*=focusLock] [class*=modal] {
-  background: rgba(0, 0, 0, 0.95) !important;
-}
 [class*=focusLock] [class*=modal] [class*=horizontalReverse] {
   background: rgba(0, 0, 0, 0.95) !important;
 }
@@ -2352,11 +2349,13 @@ button[class*=participantsButton]:hover {
   background: rgba(0, 0, 0, 0.95) !important;
   box-shadow: none !important;
 }
-[class*=focusLock] [class*=root] [class*=directionRow],
+/* [class*=focusLock] [class*=root] [class*=directionRow],
 [class*=focusLock] [class*=root] [class*=body],
 [class*=focusLock] [class*=root] [class*=topSection] {
   background: rgba(0, 0, 0, 0.95) !important;
-}
+} */
+/* keeping this commented out for now as it is breaking profiles */
+
 [class*=focusLock] [class*=root] [class*=avatar] {
   border: none;
 }
